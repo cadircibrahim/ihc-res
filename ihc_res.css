@@ -1,0 +1,112 @@
+
+@media (min-width: 1024px){
+	/*BÜYÜK EKRANLAR
+	Buyuk ekran grid sistemi = rs-gt-("1","2","3","4","5","6","7","8","9","10")
+	*/
+	.rs-bg-10 {width: 100%; }
+	.rs-bg-9 {width: 90%;  }
+	.rs-bg-8 {width: 80%; }
+	.rs-bg-7 {width: 70%; }
+	.rs-bg-6 {width: 60%;  }
+	.rs-bg-5 {width: 50%;  }
+	.rs-bg-4 {width: 40%;  }
+	.rs-bg-3 {width: 30%;  }
+	.rs-bg-2 {width: 20%;  }
+	.rs-bg-1 {width: 10%;  }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+	/*YATAY TABLETLER
+	Yatay Tabletler grid sistemi = rs-xs-("1","2","3","4","5","6","7","8","9","10")
+	*/
+	.rs-xs-10 {width: 100%; }
+	.rs-xs-9 {width: 90%;  }
+	.rs-xs-8 {width: 80%; }
+	.rs-xs-7 {width: 70%;  }
+	.rs-xs-6 {width: 60%;  }
+	.rs-xs-5 {width: 50%;  }
+	.rs-xs-4 {width: 40%;  }
+	.rs-xs-3 {width: 30%;  }
+	.rs-xs-2 {width: 20%; }
+	.rs-xs-1 {width: 10%; }
+
+}
+@media (min-width: 480px) and (max-width: 767px){
+	/*TABLE VE MOBİL TELEFONLAR
+	TABLE VE MOBİL grid sistemi = rs-mb-("1","2","3","4","5","6","7","8","9","10")
+	*/
+	.rs-mb-10 {width: 100%;}
+	.rs-mb-9 {width: 90%; }
+	.rs-mb-8 {width: 80%; }
+	.rs-mb-7 {width: 70%; }
+	.rs-mb-6 {width: 60%; }
+	.rs-mb-5 {width: 50%; }
+	.rs-mb-4 {width: 40%;}
+	.rs-mb-3 {width: 30%; }
+	.rs-mb-2 {width: 20%;}
+	.rs-mb-1 {width: 10%;}
+
+
+}
+@media (max-width: 479px){
+	/*Mobil Telfonlar İçin
+	Mobil Telfonlar  grid sistemi = rs-sm-("1","2","3","4","5","6","7","8","9","10")
+	*/
+	.rs-sm-10 {width: 100%; }
+	.rs-sm-9 {width: 90%; }
+	.rs-sm-8 {width: 80%; }
+	.rs-sm-7 {width: 70%; }
+	.rs-sm-6 {width: 60%;}
+	.rs-sm-5 {width: 50%; }
+	.rs-sm-4 {width: 40%;}
+	.rs-sm-3 {width: 30%; }
+	.rs-sm-2 {width: 20%;}
+	.rs-sm-1 {width: 10%; }
+
+}
+
+	/*GRİD SYSTEM*/
+	.rs-gt-1,.rs-gt-2,.rs-gt-3,.rs-gt-4,.rs-gt-5,.rs-gt-6,.rs-gt-7,.rs-gt-8,.rs-gt-9,.rs-gt-10, 
+	.rs-xs-1, .rs-xs-2,.rs-xs-3,.rs-xs-4,.rs-xs-5,.rs-xs-6,.rs-xs-7,.rs-xs-8,.rs-xs-9,.rs-xs-10,
+	.rs-mb-1,.rs-mb-2,.rs-mb-3,.rs-mb-4,.rs-mb-5,.rs-mb-6,.rs-mb-7,.rs-mb-8,.rs-mb-9,.rs-mb-10,
+	.rs-sm-1,.rs-sm-2,.rs-sm-3,.rs-sm-4,.rs-sm-5,.rs-sm-6,.rs-sm-7,.rs-sm-8,.rs-sm-9,.rs-sm-10{
+	position: relative;
+	min-height: 1px;
+        box-sizing: border-box;
+        float:left;
+    }
+	.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+    img {
+        position: relative;
+        max-width: 100%;
+    }
+body * {
+    box-sizing:border-box;
+
+}
+body *::after,body *::after:before{
+    content:'';
+    display:table;
+    clear:both;
+}
+	/*DİĞER ÖZELLİKLER BİTİŞ*/
